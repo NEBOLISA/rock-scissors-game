@@ -1,0 +1,91 @@
+.picked {
+  width: 40%;
+  height: 400px;
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2rem;
+}
+.dark_hole {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgb(25, 43, 67);
+  margin-top: 4rem;
+}
+.outer-circle {
+}
+/* .outer-circle.animate {
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: moveCircle 4s linear forwards;
+  display: block;
+  animation: moveAround 4s linear infinite;
+} */
+.title {
+  margin-bottom: 1rem;
+  color: white;
+  align-self: baseline;
+}
+.yourPick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.house_pick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.status_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+.hide {
+  /* transform: translateX(-100%); */
+  opacity: 0;
+  z-index: -67;
+  transition: display 0.8s ease-in-out;
+}
+
+.status_title {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+.status_play_again {
+  padding: 8px 2rem;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: hsl(229, 25%, 31%);
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+/* @keyframes moveAround {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translate(50px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translate(50px)
+      rotate(-360deg);
+  }
+} */

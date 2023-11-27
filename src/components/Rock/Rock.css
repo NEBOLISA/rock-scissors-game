@@ -1,0 +1,37 @@
+.rock {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  box-shadow: 0px 7px 0.7px hsl(349, 74%, 46%);
+  width: 100px;
+  height: 100px;
+  transform: rotateX(13deg);
+}
+.first_layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  padding: 1.7rem;
+  border-radius: 50%;
+  box-shadow: 0px -3.7px 2px hsl(0, 0%, 77%);
+
+  transform: rotateX(13deg);
+}
+@media (max-width: 414px) {
+  .rock {
+    width: 80px;
+    height: 80px;
+  }
+  .first_layer {
+    width: 30px;
+    height: 30px;
+  }
+}
