@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rock-scissors-game/static/css/main.bd277bc5.css",
+    "main.js": "/rock-scissors-game/static/js/main.233c565e.js",
+    "static/media/image-rules.svg": "/rock-scissors-game/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
+    "static/media/icon-paper.svg": "/rock-scissors-game/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
+    "index.html": "/rock-scissors-game/index.html",
+    "static/media/icon-scissors.svg": "/rock-scissors-game/static/media/icon-scissors.3b1a5d7eb0b2f1fd3e955865ec04d9ed.svg",
+    "static/media/icon-rock.svg": "/rock-scissors-game/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
+    "static/media/bg-triangle.svg": "/rock-scissors-game/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
+    "main.bd277bc5.css.map": "/rock-scissors-game/static/css/main.bd277bc5.css.map",
+    "main.233c565e.js.map": "/rock-scissors-game/static/js/main.233c565e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd277bc5.css",
+    "static/js/main.233c565e.js"
+  ]
+}
